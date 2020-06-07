@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+        .row.content {height: 1500px}
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {height: auto;}
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-3 sidenav">
+            <br/><br/>
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#section1" data-toggle="tab">Home</a></li>
+                <li><a href="#section2" data-toggle="tab">Update</a></li>
+                <li><a href="#section3" data-toggle="tab">Demo</a></li>
+                <li><a href="#section4" data-toggle="tab">About</a></li>
+            </ul>
+            <br/><br/>
+            &nbsp;&nbsp;
+            <img src="img/github.png" height="20" width="20">
+            <a href="https://github.com/AriannaMiao/Multi-currency-Wallet" >visit our github</a>
+        </div>
+
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane active" id="section1">
+                <div class="col-sm-9">
+                    <h1><small>Multi-Currency Wallet Using Blockchain</small></h1>
+                    <hr>
+                    <h2>Introduction</h2>
+                    <p>
+                        This is the homepage of Multi-Currency Wallet Using Blockchain. Our project is to develop a wallet which supports the arrangement of accounts from different banks and of different types of currencies. We build a blockchain network among the partic-ipating banks to realize the on-time, money-saving and decentralized cross border money transfer.
+                    </p>
+                    <br>
+
+                    <h2>Peocedures</h2>
+                    <p>The main objectives are listed as follows:<br>
+                        1. Creating virtual banking accounts of different currency;<br>
+                        2. Building a blockchain network using Hyperledger Fabric;<br>
+                        3. Running a trading system between different accounts using the chain;<br>
+                        4. Writing a mobile wallet application (at least one platform) to visualize the model.</p>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="section2">
+                <p>Update</p>
+            </div>
+            <div class="tab-pane fade" id="section3">
+                <p>Demo</p>
+            </div>
+            <div class="tab-pane fade" id="section4">
+                <p>About</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="container-fluid">
+    <p></p>
+</footer>
+
+</body>
+</html>
