@@ -1,0 +1,411 @@
+.about{
+    background:#f7f7f3;
+    padding:2em 0;
+}
+h3.top-title{
+    font-size:2.5em;
+    color:#000;
+    font-weight:800;
+    text-transform:uppercase;
+    text-align:center;
+    margin:1em 0 0.3em 0;
+}
+.about h4{
+    font-size:1.8em;
+    font-weight: 700;
+    text-align:center;
+    margin-bottom:1em;
+}
+.about p{
+    width:80%;
+    margin:0 auto;
+    font-size:18px;
+    line-height:1.8em;
+    font-weight:400;
+    margin-bottom:1em;
+}
+.about-row{
+    max-width: 800px;
+    background:#eaeaea;
+    margin:2em 0;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -o-border-radius:8px;
+    -ms-border-radius:8px;
+    -moz-border-radius:8px;
+}
+.about-row-column{
+    height: auto;
+    text-align: left;
+    padding: 0;
+}
+.about-row-column img{
+    width: 100%;
+    height: 100%;
+}
+.about-column{
+    padding:1em 2em;
+    text-align:left;
+}
+.about-column h3{
+    font-size:2em;
+    font-weight:400;
+    text-align:left;
+}
+.about-column h4{
+    text-align:left;
+    font-size:1.5em;
+    font-weight:400;
+}
+.about-column h5{
+    text-align:left;
+    font-size:1.3em;
+    font-weight:400;
+}
+.about-column p{
+    text-align:left;
+    width:90%;
+    font-size:1.2em;
+    line-height:1.5em;
+    color:#000;
+    margin:0 0 1em 0;
+}
+/*---- Progress Bar ---*/
+#progressbar {
+    width: 50%;
+    height: 20px;
+    background-color: #fff;
+    padding: 0px;
+    margin: .6em 0;
+    clear: both;
+}
+
+#progress {
+    background: #77b4be; /*-- Color of the bar --*/
+    height: 20px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress 2s 1 forwards;
+    -moz-animation: progress 2s 1 forwards;
+    -ms-animation: progress 2s 1 forwards;
+    animation: progress 2s 1 forwards;
+    text-align:center;
+}
+
+#pbaranim {
+    height: 15px;
+    width: 100%;
+    overflow: hidden;
+    background: url('http://www.cssdeck.com/uploads/media/items/7/7uo1osj.gif') repeat-x;
+    -moz-opacity: 0.25;
+    -khtml-opacity: 0.25;
+    opacity: 0.25;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=25);
+    filter: alpha(opacity=25);
+    color:#000;
+    font-weight:bolder;
+}
+
+@-webkit-keyframes progress {
+    from { }
+
+    to { width: 36% }
+}
+
+@-moz-keyframes progress {
+    from { }
+
+    to { width: 36% }
+}
+
+@-ms-keyframes progress {
+    from { }
+
+    to { width: 36% }
+}
+
+@keyframes progress {
+    from { }
+
+    to { width: 36% }
+}
+/*---- Progress Bar ---*/
+ul.social{
+    padding:0;
+    margin-top:1em;
+}
+ul.social li{
+    display:inline-block;
+}
+ul.social li i{
+    width:25px;
+    height:25px;
+    background:url(../img/icons8-github-50.png)no-repeat;
+    display: inline-block;
+    cursor: pointer;
+}
+ul.social li i.gi{
+    background-position:0px 0px;
+}
+.feature{
+    background:#f7f7f3;
+    padding-top:3em;
+}
+/*	Strip
+/*-----------------------------------------------------------------------------------*/
+.b-link-stripe{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow:hidden;
+}
+.b-link-stripe .b-wrapper{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-align:center;
+    color:#ffffff;
+    overflow:hidden;
+}
+.b-link-stripe .b-line{
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:20%;
+    background:rgba(15, 207, 140, 0.9);
+    transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -ms-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    opacity:0;
+    visibility:hidden; /* lt-ie9 */
+}
+/*-----------------------------------------------------------------------------------*/
+/*	Animation effects
+/*-----------------------------------------------------------------------------------*/
+.b-animate-go{
+    text-decoration:none;
+}
+.b-animate{
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    visibility: hidden;
+    font-size:1.1em;
+    font-weight:700;
+}
+.b-animate img{
+    margin-top:16%;
+    display: -webkit-inline-box;
+}
+/* lt-ie9 */
+.b-animate-go:hover .b-animate{
+    visibility:visible;
+}
+.b-from-left{
+    position:relative;
+    left:-100%;
+}
+.b-animate-go:hover .b-from-left{
+    left:0;
+}
+span.m_4{
+    font-size:14px;
+    font-weight:400;
+}
+p.m_5 {
+    margin: 2% auto 5%;
+    width: 70%;
+    color: #283A47;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+}
+ul#filters {
+    padding: 0px;
+}
+/*--team--*/
+.team{
+    background:#fff;
+    padding:0 0 9% 0;
+}
+.col_1_of_4:first-child {
+    margin-left: 0;
+}
+.span_1_of_4 {
+    width: 22.8%;
+}
+.col_1_of_4 {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 2.6%;
+    background: #FFF;
+}
+/* lt-ie9 */
+.b-link-stripe:hover .b-line{
+    visibility:visible;
+}
+.b-link-stripe .b-line1{
+    left:0;
+}
+.b-link-stripe .b-line2{
+    left:20%;
+    transition-delay:0.1s !important;
+    -moz-transition-delay:0.1s !important;
+    -ms-transition-delay:0.1s !important;
+    -o-transition-delay:0.1s !important;
+    -webkit-transition-delay:0.1s !important;
+}
+.b-link-stripe .b-line3{
+    left:40%;
+    transition-delay:0.2s !important;
+    -moz-transition-delay:0.2s !important;
+    -ms-transition-delay:0.2s !important;
+    -o-transition-delay:0.2s !important;
+    -webkit-transition-delay:0.2s !important;
+}
+.b-link-stripe .b-line4{
+    left:60%;
+    transition-delay:0.3s !important;
+    -moz-transition-delay:0.3s !important;
+    -ms-transition-delay:0.3s !important;
+    -o-transition-delay:0.3s !important;
+    -webkit-transition-delay:0.3s !important;
+}
+.b-link-stripe .b-line5{
+    left:80%;
+    transition-delay:0.4s !important;
+    -moz-transition-delay:0.4s !important;
+    -ms-transition-delay:0.4s !important;
+    -o-transition-delay:0.4s !important;
+    -webkit-transition-delay:0.4s !important;
+}
+.b-link-stripe:hover .b-line{
+    opacity:1;
+}
+}
+#filters {
+    margin: 3% 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#filters li {
+    display: -webkit-inline-box;
+}
+#filters li span {
+    display: block;
+    padding: 5px 24px;
+    text-decoration: none;
+    color: rgba(31, 49, 63, 0.7);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform:uppercase;
+}
+#filters li span.active {
+    color: #000;
+    font-weight:800;
+    font-size:25px;
+}
+#portfoliolist .portfolio {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 30%;
+    display:none;
+    float:left;
+    overflow:hidden;
+    margin:0 1% 1% 0;
+}
+div#portfoliolist {
+    padding: 40px 0px;
+}
+.portfolio-wrapper {
+    overflow:hidden;
+    position: relative !important;
+    cursor:pointer;
+}
+.portfolio img {
+    max-width:100%;
+    /*--position: relative;--*/
+    transition: all 300ms!important;
+    -webkit-transition: all 300ms!important;
+    -moz-transition: all 300ms!important;
+}
+.portfolio .label {
+    position: absolute;
+    width: 100%;
+    height:40px;
+    bottom:-40px;
+}
+.portfolio .label-bg {
+    background: #22B4B8;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.portfolio .label-text {
+    color:#fff;
+    position: relative;
+    z-index:500;
+    padding:5px 8px;
+}
+
+.portfolio .text-category {
+    display:block;
+    font-size:9px;
+    font-size: 12px;
+    text-transform:uppercase;
+}
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0; }
+.row:after,
+.clearfix:after {
+    clear: both; }
+.row,
+.clearfix {
+    zoom: 1; }
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.b-wrapper:hover {
+    background: rgba(138, 190, 198, 0.76);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+
+}
+.portfolio {
+    text-align: center;
+}
